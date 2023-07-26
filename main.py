@@ -25,3 +25,36 @@ try:
         print(f"Sum of numbers from 1 to {number} is {result}.")
 except ValueError:
     print("Invalid input. Please enter a valid positive integer.")
+
+    '''Let say we want to write a program that checks if a given number is positive, negative, or zero.'''
+
+    Number = int(input("Please enter the number:"))
+    print("You have Enter this:", Number)
+    if Number > 0:
+
+        print("this number is Positive Number")
+        # if Number==2:
+        #     print ("it is even number")
+        # else :
+        #     print(("It is Odd Number"))
+
+    elif Number < 0:
+
+        print("This Number is Negative")
+    else:
+        print("Number is Zero ")
+
+    '''def check_number(n):
+        if n > 0:
+            print("The number is positive.")
+        elif n < 0:
+            print("The number is negative.")
+        else:
+            print("The number is zero.")
+
+    # Test the function
+    number = int(input("Enter a number: "))
+    check_number(number)
+    '''
+
+
